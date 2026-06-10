@@ -1,24 +1,25 @@
 {
-  "name": "backend-setup-ontonim",
+  "name": "primehalf_dashboard_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev":"ts-node-dev --respawn --transpile-only src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn src/server.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jeem312/Backend-SetUp-Ontonim.git"
+    "url": "git+https://github.com/InnoBiz-Consultancy-Service/PrimeHalf-Dashboard-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Jeem312/Backend-SetUp-Ontonim/issues"
+    "url": " https://github.com/InnoBiz-Consultancy-Service/PrimeHalf-Dashboard-server/issues"
   },
-  "homepage": "https://github.com/Jeem312/Backend-SetUp-Ontonim#readme",
+  "homepage": " https://github.com/InnoBiz-Consultancy-Service/PrimeHalf-Dashboard-server#readme",
   "devDependencies": {
     "@eslint/js": "^9.32.0",
     "@types/cors": "^2.8.19",
